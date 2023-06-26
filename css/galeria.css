@@ -1,0 +1,32 @@
+.titulo-fotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,0.8);
+  padding-top: 3%;
+}
+.titulo-fotos h2{
+  font-size: 3em;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3%;
+}
+
+.fotos img {
+  transition: all .2s ease-in-out;
+  width: 15em;
+  height: 15em;
+  border: 2px solid grey;
+  border-radius: 3%;
+  margin: 2% 0% 2% 0%;
+  /* box-shadow: 5px 5px 20px #888888; */
+}
+.fotos img:hover {
+  transform:scale(2);
+}

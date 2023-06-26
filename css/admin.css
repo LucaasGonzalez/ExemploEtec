@@ -1,0 +1,23 @@
+.fundo-admin {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url(../imgs/admin.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.main-admin {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(256, 256, 256, 0.8);
+  border: 1px solid #D8D8D8;
+  box-shadow: 1px 2px 1px #D8D8D8;
+  border-radius: 1%;
+  margin-top: 2%;
+  width: 80%;
+  margin-left: 10%;
+  padding: 2%;
+}
+
+.main-admin h2,h1{
+  border-bottom: 1px solid #D8D8D8;
+}
